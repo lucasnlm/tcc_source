@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="Controller" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "Debug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Release",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="spdlog">
+    <VirtualDirectory Name="details">
+      <File Name="spdlog/details/blocking_queue.h"/>
+      <File Name="spdlog/details/fast_istostr.h"/>
+      <File Name="spdlog/details/fast_oss.h"/>
+      <File Name="spdlog/details/file_helper.h"/>
+      <File Name="spdlog/details/line_logger.h"/>
+      <File Name="spdlog/details/logger_impl.h"/>
+      <File Name="spdlog/details/log_msg.h"/>
+      <File Name="spdlog/details/null_mutex.h"/>
+      <File Name="spdlog/details/os.h"/>
+      <File Name="spdlog/details/pattern_formatter_impl.h"/>
+      <File Name="spdlog/details/registry.h"/>
+      <File Name="spdlog/details/spdlog_impl.h"/>
+      <File Name="spdlog/details/stack_buf.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="sinks">
+      <File Name="spdlog/sinks/async_sink.h"/>
+      <File Name="spdlog/sinks/base_sink.h"/>
+      <File Name="spdlog/sinks/file_sinks.h"/>
+      <File Name="spdlog/sinks/null_sink.h"/>
+      <File Name="spdlog/sinks/ostream_sink.h"/>
+      <File Name="spdlog/sinks/sink.h"/>
+      <File Name="spdlog/sinks/stdout_sinks.h"/>
+      <File Name="spdlog/sinks/syslog_sink.h"/>
+    </VirtualDirectory>
+    <File Name="spdlog/common.h"/>
+    <File Name="spdlog/formatter.h"/>
+    <File Name="spdlog/logger.h"/>
+    <File Name="spdlog/spdlog.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="rapidjson">
+    <VirtualDirectory Name="error">
+      <File Name="rapidjson/error/en.h"/>
+      <File Name="rapidjson/error/error.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="internal">
+      <File Name="rapidjson/internal/dtoa.h"/>
+      <File Name="rapidjson/internal/itoa.h"/>
+      <File Name="rapidjson/internal/meta.h"/>
+      <File Name="rapidjson/internal/pow10.h"/>
+      <File Name="rapidjson/internal/stack.h"/>
+      <File Name="rapidjson/internal/strfunc.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="msinttypes">
+      <File Name="rapidjson/msinttypes/inttypes.h"/>
+      <File Name="rapidjson/msinttypes/stdint.h"/>
+    </VirtualDirectory>
+    <File Name="rapidjson/allocators.h"/>
+    <File Name="rapidjson/document.h"/>
+    <File Name="rapidjson/encodedstream.h"/>
+    <File Name="rapidjson/encodings.h"/>
+    <File Name="rapidjson/filereadstream.h"/>
+    <File Name="rapidjson/filestream.h"/>
+    <File Name="rapidjson/filewritestream.h"/>
+    <File Name="rapidjson/memorybuffer.h"/>
+    <File Name="rapidjson/memorystream.h"/>
+    <File Name="rapidjson/prettywriter.h"/>
+    <File Name="rapidjson/rapidjson.h"/>
+    <File Name="rapidjson/reader.h"/>
+    <File Name="rapidjson/stringbuffer.h"/>
+    <File Name="rapidjson/writer.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="luawrapper">
+    <VirtualDirectory Name="misc">
+      <File Name="luawrapper/misc/exception.hpp"/>
+    </VirtualDirectory>
+    <File Name="luawrapper/LuaContext.hpp"/>
+  </VirtualDirectory>
+  <Reconciliation>
+    <Regexes/>
+    <Excludepaths/>
+    <Ignorefiles/>
+    <Extensions>
+      <![CDATA[cpp;c;h;hpp;xrc;wxcp;fbp]]>
+    </Extensions>
+    <Topleveldir>../Controller</Topleveldir>
+  </Reconciliation>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="controller">
+    <File Name="analog.cpp"/>
+    <File Name="analog.hpp"/>
+    <File Name="dashboard.cpp"/>
+    <File Name="dashboard.hpp"/>
+    <File Name="http_handler.cpp"/>
+    <File Name="http_handler.hpp"/>
+    <File Name="interface.cpp"/>
+    <File Name="interface.hpp"/>
+    <File Name="logger.cpp"/>
+    <File Name="logger.hpp"/>
+    <File Name="manager.cpp"/>
+    <File Name="manager.hpp"/>
+    <File Name="pin_configs.hpp"/>
+    <File Name="settings.hpp"/>
+    <File Name="timer.cpp"/>
+    <File Name="timer.hpp"/>
+    <File Name="util.cpp"/>
+    <File Name="util.hpp"/>
+    <File Name="watch_dog.cpp"/>
+    <File Name="watch_dog.hpp"/>
+    <File Name="main.cpp"/>
+    <File Name="pins_definitions.hpp"/>
+    <File Name="pins_definitions.cpp"/>
+    <File Name="settings.cpp"/>
+    <File Name="base64.hpp"/>
+    <File Name="base64.cpp"/>
+    <File Name="system.hpp"/>
+    <File Name="system.cpp"/>
+    <File Name="rest.hpp"/>
+    <File Name="rest.cpp"/>
+    <File Name="controller.hpp"/>
+    <File Name="controller.cpp"/>
+    <File Name="presets.hpp"/>
+    <File Name="pin.hpp"/>
+    <File Name="pin.cpp"/>
+    <File Name="presets.cpp"/>
+    <File Name="bit_manip.hpp"/>
+    <File Name="bit_manip.cpp"/>
+    <File Name="controller_io.hpp"/>
+    <File Name="controller_io.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="cppformat">
+    <File Name="cppformat/format.cc"/>
+    <File Name="cppformat/format.h"/>
+    <File Name="cppformat/posix.cc"/>
+    <File Name="cppformat/posix.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="lua52">
+    <File Name="lua52/lapi.c"/>
+    <File Name="lua52/lapi.h"/>
+    <File Name="lua52/lauxlib.c"/>
+    <File Name="lua52/lauxlib.h"/>
+    <File Name="lua52/lbaselib.c"/>
+    <File Name="lua52/lbitlib.c"/>
+    <File Name="lua52/lcode.c"/>
+    <File Name="lua52/lcode.h"/>
+    <File Name="lua52/lcorolib.c"/>
+    <File Name="lua52/lctype.c"/>
+    <File Name="lua52/lctype.h"/>
+    <File Name="lua52/ldblib.c"/>
+    <File Name="lua52/ldebug.c"/>
+    <File Name="lua52/ldebug.h"/>
+    <File Name="lua52/ldo.c"/>
+    <File Name="lua52/ldo.h"/>
+    <File Name="lua52/ldump.c"/>
+    <File Name="lua52/lfunc.c"/>
+    <File Name="lua52/lfunc.h"/>
+    <File Name="lua52/lgc.c"/>
+    <File Name="lua52/lgc.h"/>
+    <File Name="lua52/linit.c"/>
+    <File Name="lua52/liolib.c"/>
+    <File Name="lua52/llex.c"/>
+    <File Name="lua52/llex.h"/>
+    <File Name="lua52/llimits.h"/>
+    <File Name="lua52/lmathlib.c"/>
+    <File Name="lua52/lmem.c"/>
+    <File Name="lua52/lmem.h"/>
+    <File Name="lua52/loadlib.c"/>
+    <File Name="lua52/lobject.c"/>
+    <File Name="lua52/lobject.h"/>
+    <File Name="lua52/lopcodes.c"/>
+    <File Name="lua52/lopcodes.h"/>
+    <File Name="lua52/loslib.c"/>
+    <File Name="lua52/lparser.c"/>
+    <File Name="lua52/lparser.h"/>
+    <File Name="lua52/lstate.c"/>
+    <File Name="lua52/lstate.h"/>
+    <File Name="lua52/lstring.c"/>
+    <File Name="lua52/lstring.h"/>
+    <File Name="lua52/lstrlib.c"/>
+    <File Name="lua52/ltable.c"/>
+    <File Name="lua52/ltable.h"/>
+    <File Name="lua52/ltablib.c"/>
+    <File Name="lua52/ltm.c"/>
+    <File Name="lua52/ltm.h"/>
+    <File Name="lua52/lua.h"/>
+    <File Name="lua52/lua.hpp"/>
+    <File Name="lua52/luaconf.h"/>
+    <File Name="lua52/lualib.h"/>
+    <File Name="lua52/lundump.c"/>
+    <File Name="lua52/lundump.h"/>
+    <File Name="lua52/lvm.c"/>
+    <File Name="lua52/lvm.h"/>
+    <File Name="lua52/lzio.c"/>
+    <File Name="lua52/lzio.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="http">
+    <File Name="http/connection.hpp"/>
+    <File Name="http/connection.cpp"/>
+    <File Name="http/connection_manager.hpp"/>
+    <File Name="http/connection_manager.cpp"/>
+    <File Name="http/header.hpp"/>
+    <File Name="http/mime_types.hpp"/>
+    <File Name="http/mime_types.cpp"/>
+    <File Name="http/reply.hpp"/>
+    <File Name="http/reply.cpp"/>
+    <File Name="http/request.hpp"/>
+    <File Name="http/request_handler.hpp"/>
+    <File Name="http/request_handler.cpp"/>
+    <File Name="http/request_parser.hpp"/>
+    <File Name="http/request_parser.cpp"/>
+    <File Name="http/server.hpp"/>
+    <File Name="http/server.cpp"/>
+    <File Name="http/authentication.cpp"/>
+    <File Name="http/header_parser.hpp"/>
+    <File Name="http/header_parser.cpp"/>
+    <File Name="http/request.cpp"/>
+    <File Name="http/authentication.hpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="modbus">
+    <File Name="modbus/modbus.hpp"/>
+    <File Name="modbus/modbus_connection.cpp"/>
+    <File Name="modbus/modbus_connection.hpp"/>
+    <File Name="modbus/response.hpp"/>
+    <File Name="modbus/response.cpp"/>
+    <File Name="modbus/read_coils_response.hpp"/>
+    <File Name="modbus/read_coils_response.cpp"/>
+    <File Name="modbus/read_discrete_inputs.hpp"/>
+    <File Name="modbus/read_discrete_inputs.cpp"/>
+    <File Name="modbus/read_holding_registers.hpp"/>
+    <File Name="modbus/read_holding_registers.cpp"/>
+    <File Name="modbus/read_input_registers.hpp"/>
+    <File Name="modbus/read_input_registers.cpp"/>
+    <File Name="modbus/handler.hpp"/>
+    <File Name="modbus/handler.cpp"/>
+    <File Name="modbus/header.hpp"/>
+    <File Name="modbus/read_register.hpp"/>
+    <File Name="modbus/read_register.cpp"/>
+    <File Name="modbus/write_register.hpp"/>
+    <File Name="modbus/write_register.cpp"/>
+    <File Name="modbus/write_single_coil.hpp"/>
+    <File Name="modbus/write_single_coil.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="Cross GCC ( arm-linux-gnueabihf )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-std=c++11;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="C:/boost_arm"/>
+      </Compiler>
+      <Linker Options="-static;-static-libstdc++;-static-libgcc" Required="yes">
+        <LibraryPath Value="C:/boost_arm/stage/lib"/>
+        <Library Value="libboost_system-gcc-mt-1_57.a"/>
+        <Library Value="libboost_thread_pthread-gcc-mt-1_57.a"/>
+        <Library Value="pthread"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="Output/Controller" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="yes">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="Cross GCC ( arm-linux-gnueabihf )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;-std=c++11" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="C:/boost_arm"/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="-static;-static-libstdc++;-static-libgcc" Required="yes">
+        <LibraryPath Value="C:/boost_arm/stage/lib"/>
+        <Library Value="libboost_system-gcc-mt-1_57.a"/>
+        <Library Value="libboost_thread_pthread-gcc-mt-1_57.a"/>
+        <Library Value="pthread"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="Output/Controller" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
