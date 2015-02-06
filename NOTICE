@@ -1,0 +1,39 @@
+This project, Controller, is licensed under the Apache License 2.0.
+See: LICENSE for more information.
+
+The project requires source code from other open source:
+
+Boost
+http://www.boost.org/
+Under the terms of the Boost Software License.
+
+cpp-netlib
+http://cpp-netlib.org/
+Under the terms of the Boost Software License.
+
+Lua 5.2
+http://www.lua.org/
+Under the terms of the MIT license.
+Copyright © 1994–2014 Lua.org, PUC-Rio.
+All rights reserved.
+
+Lua Wrapper
+https://github.com/tomaka/luawrapper
+Copyright (c) 2013, Pierre KRIEGER.
+All rights reserved.
+
+RapidJson
+https://github.com/miloyip/rapidjson
+Copyright (c) 2011-2014 Milo Yip (miloyip@gmail.com).
+All rights reserved.
+
+spdlog
+https://github.com/gabime/spdlog
+Copyright (c) 2014 Gabi Melman. 
+All rights reserved.
+
+cppformat
+https://github.com/cppformat/cppformat
+Copyright (c) 2012, Victor Zverovich
+All rights reserved.
+
