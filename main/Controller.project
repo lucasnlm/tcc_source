@@ -113,13 +113,10 @@
     <File Name="dashboard.hpp"/>
     <File Name="http_handler.cpp"/>
     <File Name="http_handler.hpp"/>
-    <File Name="interface.cpp"/>
-    <File Name="interface.hpp"/>
     <File Name="logger.cpp"/>
     <File Name="logger.hpp"/>
     <File Name="manager.cpp"/>
     <File Name="manager.hpp"/>
-    <File Name="pin_configs.hpp"/>
     <File Name="settings.hpp"/>
     <File Name="timer.cpp"/>
     <File Name="timer.hpp"/>
@@ -135,8 +132,6 @@
     <File Name="base64.cpp"/>
     <File Name="system.hpp"/>
     <File Name="system.cpp"/>
-    <File Name="rest.hpp"/>
-    <File Name="rest.cpp"/>
     <File Name="controller.hpp"/>
     <File Name="controller.cpp"/>
     <File Name="presets.hpp"/>
